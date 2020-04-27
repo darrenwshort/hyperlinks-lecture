@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="hyperlinks.css">
+    <title>Home Page</title>
+</head>
+<body>
+    
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="file2.html">Page 2</a>
+        <a href="file3.html">Page 3</a>
+    </div>
+    <div class="pics">
+        <img src="images/IMG_6827.jpeg" width="300" />
+    </div>
+
+    <form>
+        <input type="button" value="Go To Page 2" onclick="window.location='file2.html'" />
+        <input type="button" value="Go To Page 3" onclick="window.location='file3.html'" />
+    </form>
+
+</body>
+</html>
+© 2020 GitHub, Inc.
